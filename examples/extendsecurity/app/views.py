@@ -4,7 +4,7 @@ from flask_appbuilder.models.sqla.filters import FilterEqualFunction
 from flask_appbuilder.models.sqla.interface import SQLAInterface
 
 from . import appbuilder
-from .models import Company, Contact, ContactGroup
+from app.models import Company, Contact, ContactGroup
 
 
 def get_user_company():
